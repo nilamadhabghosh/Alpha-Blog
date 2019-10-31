@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ nav {
+     background-color: aqua;
+ }
+@import "./_custom.css";
+@import "../node_modules/bootstrap/scss/bootstrap";
+ 
