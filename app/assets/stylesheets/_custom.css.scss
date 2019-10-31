@@ -2,7 +2,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-#navbar1 {
+nav {
     color: #08088A;
 }
 #logo {
@@ -42,3 +42,27 @@
     font-size: 1.7em;
     width: 120px;
 }
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    }
+    
+    footer a:hover {
+    color: #222;
+    }
+    
+    footer small {
+    float: left;
+    }
+    
+    footer ul {
+    float: right;
+    list-style: none;
+    }
+    
+    footer ul li {
+    float: left;
+    margin-left: 15px;
+    }
