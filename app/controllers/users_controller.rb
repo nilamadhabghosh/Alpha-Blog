@@ -48,4 +48,5 @@ class UsersController < ApplicationController
           flash[:danger] = "you can not edit or delete other users"
           redirect_to root_path
       end
+    end
 end
